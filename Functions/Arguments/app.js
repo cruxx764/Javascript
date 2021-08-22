@@ -1,35 +1,35 @@
 // //value which is passed in as an input to a function
-// function greet(idiotPerson) {
-//     console.log(`firstName is: ${idiotPerson}`)
-// };
+function greet(idiotPerson) {
+    console.log(`firstName is: ${idiotPerson}`)
+};
 
-// console.log(greet('Evlis'));
+console.log(greet('Evlis'));
 
-// function rant(message){
-//     console.log(message.toUpperCase())
-//     console.log(message.toUpperCase())
-//     console.log(message.toUpperCase())
-// };
+function rant(message){
+    console.log(message.toUpperCase())
+    console.log(message.toUpperCase())
+    console.log(message.toUpperCase())
+};
 
-// console.log(rant("I hate beets"))
+console.log(rant("I hate beets"))
 
-// function greet(firstName, lastName){
-//     console.log(`Hey there, ${firstName} ${lastName[0].toUpperCase()}.`)
-// };
+function greet(firstName, lastName){
+    console.log(`Hey there, ${firstName} ${lastName[0].toUpperCase()}.`)
+};
 
-// console.log(greet('george', 'clooney'));
+console.log(greet('george', 'clooney'));
 
 
-// function repeat(name, times) {
-//     // console.log(name,times)
-//     let result = '';
-//     for (let i = 0; i < times; i++) {
-//         result += name;
-//     }
-//     console.log(result);
-// }
+function repeat(name, times) {
+    console.log(name,times)
+    let result = '';
+    for (let i = 0; i < times; i++) {
+        result += name;
+    }
+    console.log(result);
+}
 
-// console.log(repeat('$', 10));
+console.log(repeat('$', 10));
 
 function isSnakeEyes(value1,value2) {
     if (value1 === 1 && value2 === 1){
