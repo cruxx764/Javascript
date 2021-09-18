@@ -1,7 +1,7 @@
-// function sum(){
-//    return arguments.reduce((total,el) => total + el)
-// }
-// console.log(sum(223,23,34))
+function sum(){
+   return arguments.reduce((total,el) => total + el)
+}
+console.log(sum(223,23,34))
 // The reduce method will not work on 'arguments' as its not an array 
 
 function sum2(...nums){

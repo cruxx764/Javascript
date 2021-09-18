@@ -16,24 +16,24 @@ const frodo = {
 };
 
 
-// function isitadwarf(species){
-// if (species.race === "dwarf") {
-//     console.log("Tis a Dwarf")
-// } else {
-//     console.log("No Drawf I've ever seen")
-// }}; 
+function isitadwarf(species){
+if (species.race === "dwarf") {
+    console.log("Tis a Dwarf")
+} else {
+    console.log("No Drawf I've ever seen")
+}}; 
 
 
 // console.log(isitadwarf(gimli));  
 
 // Is Key of 'ring' in both objects?
-// function anymatches(checkMatch1,checkMatch2){
-//     if (checkMatch1.hasOwnProperty("ring") && checkMatch2.hasOwnProperty("ring")){
-//         console.log("Ring holder")
-//     } else {
-//         console.log("No Ring on here")
-//     }
-// };
+function anymatches(checkMatch1,checkMatch2){
+    if (checkMatch1.hasOwnProperty("ring") && checkMatch2.hasOwnProperty("ring")){
+        console.log("Ring holder")
+    } else {
+        console.log("No Ring on here")
+    }
+};
 
 const data = {}
 
